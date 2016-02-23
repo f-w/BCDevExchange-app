@@ -15,6 +15,7 @@ fi
 
 
 echo "---> Installing application source"
+pwd
 cp -Rf /tmp/src/. ./
 
 if [ ! -z $HTTP_PROXY ]; then
