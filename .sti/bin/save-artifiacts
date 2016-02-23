@@ -3,6 +3,6 @@
 pushd ${HOME}
 if [ -d node_modules ]; then
     # all node_modules contents to tar stream
-    tar cf - node_modules
+    tar cf - node_modules client/bower_components
 fi
 popd
