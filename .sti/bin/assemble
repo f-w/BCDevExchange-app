@@ -45,7 +45,7 @@ git --version
 git config --global url.https://.insteadOf git://
 npm install bower@1.4.1 grunt-cli@0.1.3
 export PATH=$PATH:node_modules/.bin
-npm install BCDevExchange/swagger-editor && npm install && bower install ; grunt build
+npm install BCDevExchange/swagger-editor && bower install ; npm install &&  grunt build
 
 # Fix source directory permissions
 fix-permissions ./
